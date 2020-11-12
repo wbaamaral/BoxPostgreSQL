@@ -1,0 +1,11 @@
+--- /etc/postgresql/13/main/pg_hba.conf	2020-11-12 21:22:27.591273291 +0000
++++ pg_hba.conf	2020-11-12 21:19:45.560797334 +0000
+@@ -94,6 +94,8 @@
+ local   all             all                                     peer
+ # IPv4 local connections:
+ host    all             all             127.0.0.1/32            md5
++host    all             all             0.0.0.0/0               trust
++
+ # IPv6 local connections:
+ host    all             all             ::1/128                 md5
+ # Allow replication connections from localhost, by a user with the

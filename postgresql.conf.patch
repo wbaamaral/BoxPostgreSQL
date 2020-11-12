@@ -1,0 +1,10 @@
+--- /etc/postgresql/13/main/postgresql.conf	2020-11-12 21:22:27.619287291 +0000
++++ postgresql.conf	2020-11-12 21:19:45.564130632 +0000
+@@ -56,6 +56,7 @@
+ 
+ # - Connection Settings -
+ 
++listen_addresses = '*'		# what IP address(es) to listen on;
+ #listen_addresses = 'localhost'		# what IP address(es) to listen on;
+ 					# comma-separated list of addresses;
+ 					# defaults to 'localhost'; use '*' for all
