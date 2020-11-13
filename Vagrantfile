@@ -7,6 +7,8 @@ Vagrant.configure("2") do |config|
   end
   config.vm.synced_folder "./" , "/vagrant"
 
-  config.vm.network "public_network", bridge: "eth2", type: "dhcp"
+  # Caso precise de uma interface em ponte com a rede local descomentar essa linha a baixo.
+  # config.vm.network "public_network", bridge: "eth2", type: "dhcp"
+  config.vm.network "private_network", ip: "192.168.52.18"
   config.vm.provision "shell", path: "installPostgres.sh"
 end
