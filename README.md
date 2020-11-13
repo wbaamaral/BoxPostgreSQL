@@ -5,7 +5,7 @@ Necessario ter vagrant e virtualbox instalados.
 *Artigos sobre Vagrant* 
 Utilizando vagrant no [Windows](https://nandovieira.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows).
 
-Utilizando vagrant no Linux: [Debian/Ubuntu](https://e-tinet.com/linux/vagrant/), [CentOS/RedHat][https://computingforgeeks.com/how-to-install-vagrant-on-centos-rhel-linux/] e [Arch Linux](https://wiki.archlinux.org/index.php/VirtualBox)
+Utilizando vagrant no Linux: [Debian/Ubuntu](https://e-tinet.com/linux/vagrant/), [CentOS/RedHat](https://computingforgeeks.com/how-to-install-vagrant-on-centos-rhel-linux/) e [Arch Linux](https://wiki.archlinux.org/index.php/VirtualBox).
 
 # Passos básicos 
 
